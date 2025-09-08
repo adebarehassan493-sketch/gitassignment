@@ -1,0 +1,42 @@
+<h2>Registration Form</h2>
+    <form>
+        <label for="First">First Name;</label>
+        <input type="text" maxlength="15" minlength="10" id="Frist">
+        <label for="Last">Last Name;</label>
+        <input type="text" id="Last" maxlength="15" minlength="10"><br>
+        <label>Date of birth;</label>
+        <input type="date" name="date of birth">
+        <label>Gender;</label>
+        <input type="radio" name="Gender" value="Male">
+        <label>Male</label>
+        <input type="radio" name="Gender" value="female">
+        <label>Female</label>
+        <input type="radio" name="Gender" value="Other">
+        <label>Other</label><br>
+        <label for="Phone">Phone;</label>
+        <input type="number" id="Phone">
+        <label for="email">Emaile;</label>
+        <input type="email" required id="email"><br><br>
+        <label><h2>Address</h2></label><br>
+        <input type="text" placeholder="Street Address" name="Street Address"><br><br>
+        <input type="text" name="Street Address Line2" placeholder="Street Address Line2"><br><br>
+        <input type="text" name="City" placeholder="City">
+        <input type="text" name="State" placeholder="State"><br><br>
+        <input type="text" name="Postal/Zip Code" placeholder="Postal/Zip Code">
+        <select>
+            <option value="United Kingdom" name="United Kingdom">United Kingdom</option>
+            <option value="Nigeria" name="Nigeria">Nigeria</option>
+            <option value="England" name="England">England</option>
+        </select><br><br>
+        <label><b>Level of Education;</b></label>
+        <input type="checkbox" name="Level of Education" value="College"><label>College</label>
+        <input type="checkbox" name="Level of Education" value="Bachelor's degree"><label>Bachelor's degree</label>
+        <input type="checkbox" name="Level of Education" value="Master's degree"><label>Master's degree</label><br><br>
+        <label for="ccc">Anything else worth noting about you.</label><br>
+        <textarea cols="40" rows="4" id="ccc"></textarea><br><br>
+        <label for="password">Password;</label>
+        <input type="password" id="password">
+        <label for="password2">Confirm Password;</label>
+        <input type="password" name="password" id="password2"><br><br>
+        <button>Submit</button>
+    </form>
